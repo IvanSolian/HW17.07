@@ -1,15 +1,19 @@
+package src;
+
 import java.util.Random;
 
 public class HW1 {
 
 
     public static void main(String[] args) {
-        Random random = new Random ();
+
+
+        Random random = new Random();
 
         int[] array = new int[49];
 
         for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt(50);
+            array[i] = 2 * random.nextInt(50);
 
         }
         for (int i = 0; i < array.length; i++) {
